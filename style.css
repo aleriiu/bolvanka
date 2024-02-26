@@ -33,6 +33,7 @@ div {
     padding-top: 10px;
     overflow-y: scroll;
     margin-bottom: 100px;
+    height: 600px;
 }
 
 .container-group__part {
@@ -159,7 +160,6 @@ button {
 .padding {
     padding: 0;
     margin: 0;
-    overflow-x: scroll;
 }
 
 .td-button {
@@ -188,17 +188,19 @@ button {
     }
 
     .container-group {
-        height: 300px;
-        margin-bottom: 0;
+        height: 400px;
+        /* margin-bottom: 0; */
     }
 
     .container-group__part {
-        position: static;
+        /* position: static; */
+        position: fixed;
+        bottom: 0;
     }
 
-    footer {
+    /* footer {
         position: sticky;
-    }
+    } */
 }
 
 @media (max-width: 750px) {
@@ -216,10 +218,20 @@ button {
 
     button {
         padding: 10px 10px;
+        font-size: 10px;
+    }
+
+    td {
+        font-size: 10px;
+        word-break: break-all;
     }
 
     p {
         padding: 10px;
         font-size: 14px;
+    }
+
+    .container-group {
+        height: 250px;
     }
 }
