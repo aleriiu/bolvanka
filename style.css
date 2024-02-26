@@ -111,6 +111,7 @@ button {
     padding: 20px 20px;
     cursor: pointer;
     color: #000000;
+    -webkit-appearance: none;
 }
 
 .col-1 {
