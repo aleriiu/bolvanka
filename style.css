@@ -31,6 +31,14 @@ div {
 .container-group {
     width: 50%;
     padding-top: 10px;
+    overflow-y: scroll;
+    height: 370px;
+}
+
+.container-group__part {
+    width: 50%;
+    padding-top: 10px;
+    position: sticky; 
 }
 
 h1 {
@@ -173,7 +181,8 @@ button {
         flex-direction: column;
     }
 
-    .container-group {
+    .container-group,
+    .container-group__part {
         width: 100%;
     }
 }
