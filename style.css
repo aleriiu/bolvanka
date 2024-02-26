@@ -110,6 +110,7 @@ button {
     border: 0px solid gray;
     padding: 20px 20px;
     cursor: pointer;
+    color: #000000;
 }
 
 .col-1 {
