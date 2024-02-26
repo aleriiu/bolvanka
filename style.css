@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding: 20px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.container-group {
+    width: 50%;
+}
+
+h1 {
+    background-color: #b0e0e6;
+    border: 3px solid black;
+    font-size: 38px;
+    text-align: center;
+}
+
+h1 i {
+    color: purple;
+}
+
+p {
+    background-color: #b0e0e6;
+    border: 3px solid black;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 38px;
+    padding: 20px 0;
+}
+
+table {
+    table-layout: fixed;
+    overflow: scroll;
+    border-collapse: collapse;
+    border: 3px solid #000000;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 3px;
+    /* Поля вокруг содержимого таблицы */
+    border: 1px solid black;
+}
+
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+thead td {
+    font-weight: 800;
+    background: #b0e0e6;
+}
+
+button {
+    background-color: #C7C3C2;
+    border: 0px solid gray;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.col-1 {
+    width: 3%;
+}
+
+.col-2 {
+    width: 10%;
+}
+
+.col-3,
+.col-4 {
+    width: 11%;
+}
+
+.col-5 {
+    width: 18%;
+}
+
+.col-6 {
+    width: 10%;
+}
+
+.col-7 {
+    width: 7%;
+}
+
+.col-8 {
+    width: 10%;
+}
+
+.col-9 {
+    width: 30%;
+}
+
+.padding {
+    padding: 0;
+    margin: 0;
+    overflow-x: scroll;
+}
+
+.td-button {
+    width: 24%;
+    background-color: #C7C3C2;
+    margin: 10px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.table-border {
+    border: 0px solid black;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+@media (max-width: 1280px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-group {
+        width: 100%;
+    }
+}
+@media (max-width: 750px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    div {
+        padding: 0;
+    }
+
+    button {
+        padding: 10px 10px;
+    }
+
+    p {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
