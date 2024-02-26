@@ -32,6 +32,7 @@ div {
     width: 50%;
     padding-top: 10px;
     overflow-y: scroll;
+    margin-bottom: 100px;
 }
 
 .container-group__part {
