@@ -185,6 +185,18 @@ button {
     .container-group__part {
         width: 100%;
     }
+
+    .container-group {
+        height: 300px;
+    }
+
+    .container-group__part {
+        position: static;
+    }
+
+    footer {
+        position: sticky;
+    }
 }
 
 @media (max-width: 750px) {
