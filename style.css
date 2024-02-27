@@ -208,6 +208,7 @@ button {
     .container-group {
         margin-bottom: 0;
         max-height: 50vh;
+        padding-bottom: 20px;
     }
 
     .container-group__part {
