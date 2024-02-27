@@ -190,11 +190,6 @@ button {
         overflow-y: scroll;
     }
 
-    /* body {
-        height: 100vh;
-        overflow: hidden;
-    } */
-
     .container {
         display: flex;
         flex-direction: column;
@@ -203,6 +198,7 @@ button {
     .container-group,
     .container-group__part {
         width: 100%;
+        padding: 0;
     }
 
     .container-group {
@@ -210,8 +206,6 @@ button {
     }
 
     .container-group__part {
-        /* position: sticky;
-        bottom: 106px; */
         display: none;
     }
 
@@ -256,8 +250,4 @@ button {
         padding: 10px;
         font-size: 14px;
     }
-
-    /* .container-group {
-        height: 250px;
-    } */
 }
