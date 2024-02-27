@@ -181,16 +181,20 @@ button {
     width: 100%;
 }
 
+.container-group__part-display {
+    display: none;
+}
+
 @media (max-width: 1280px) {
 
     html {
         overflow-y: scroll;
     }
 
-    body {
+    /* body {
         height: 100vh;
         overflow: hidden;
-    }
+    } */
 
     .container {
         display: flex;
@@ -207,12 +211,22 @@ button {
     }
 
     .container-group__part {
-        position: sticky;
-        bottom: 106px;
+        /* position: sticky;
+        bottom: 106px; */
+        display: none;
+    }
+
+    .container-group__part-display {
+        display: block;
+        position: static;
     }
 
     footer {
         position: sticky;
+    }
+
+    .table-border {
+        margin-bottom: 0;
     }
 }
 
@@ -244,7 +258,7 @@ button {
         font-size: 14px;
     }
 
-    .container-group {
+    /* .container-group {
         height: 250px;
-    }
+    } */
 }
