@@ -40,7 +40,7 @@ div {
     width: 50%;
     padding-top: 10px;
     position: fixed;
-    right: 0; 
+    right: 0;
 }
 
 h1 {
@@ -177,6 +177,11 @@ button {
 }
 
 @media (max-width: 1280px) {
+
+    body {
+        height: 100vh;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -188,19 +193,17 @@ button {
     }
 
     .container-group {
-        height: 400px;
-        /* margin-bottom: 0; */
+        margin-bottom: 0;
     }
 
     .container-group__part {
-        /* position: static; */
-        position: fixed;
-        bottom: 0;
+        position: sticky;
+        bottom: 106px;
     }
 
-    /* footer {
+    footer {
         position: sticky;
-    } */
+    }
 }
 
 @media (max-width: 750px) {
