@@ -32,8 +32,13 @@ div {
     width: 50%;
     padding-top: 10px;
     overflow-y: scroll;
+    scrollbar-width: none;
     margin-bottom: 100px;
     height: 600px;
+}
+
+.container-group::-webkit-scrollbar {
+    display: none;
 }
 
 .container-group__part {
@@ -178,8 +183,13 @@ button {
 
 @media (max-width: 1280px) {
 
+    html {
+        overflow-y: scroll;
+    }
+
     body {
         height: 100vh;
+        overflow: hidden;
     }
 
     .container {
