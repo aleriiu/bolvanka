@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
 header {
@@ -18,14 +19,8 @@ footer {
     width: 100%;
 }
 
-div {
-    padding: 20px;
-}
-
 .container {
     display: flex;
-    padding: 0;
-    margin: 0;
 }
 
 .container-group {
@@ -34,6 +29,7 @@ div {
     overflow-y: scroll;
     scrollbar-width: none;
     margin-bottom: 100px;
+    padding: 20px;
 }
 
 .container-group::-webkit-scrollbar {
@@ -45,6 +41,7 @@ div {
     padding-top: 10px;
     position: fixed;
     right: 0;
+    padding: 20px;
 }
 
 h1 {
@@ -76,33 +73,17 @@ table {
     overflow: scroll;
     border-collapse: collapse;
     border: 3px solid #000000;
+    width: 100%;
 }
 
-thead th:nth-child(1) {
-    width: 30%;
-}
-
-thead th:nth-child(2) {
-    width: 20%;
-}
-
-thead th:nth-child(3) {
-    width: 15%;
-}
-
-thead th:nth-child(4) {
-    width: 35%;
+.col-1 {
+    width: 5%;
 }
 
 th,
 td {
     padding: 3px;
-    /* Поля вокруг содержимого таблицы */
     border: 1px solid black;
-}
-
-html {
-    font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
 th {
@@ -122,48 +103,10 @@ thead td {
 button {
     background-color: #C7C3C2;
     border: 0px solid gray;
-    padding: 20px 20px;
+    padding: 20px;
     cursor: pointer;
     color: #000000;
     -webkit-appearance: none;
-}
-
-.col-1 {
-    width: 3%;
-}
-
-.col-2 {
-    width: 10%;
-}
-
-.col-3,
-.col-4 {
-    width: 11%;
-}
-
-.col-5 {
-    width: 18%;
-}
-
-.col-6 {
-    width: 10%;
-}
-
-.col-7 {
-    width: 7%;
-}
-
-.col-8 {
-    width: 10%;
-}
-
-.col-9 {
-    width: 30%;
-}
-
-.padding {
-    padding: 0;
-    margin: 0;
 }
 
 .td-button {
@@ -185,10 +128,6 @@ button {
 }
 
 @media (max-width: 1280px) {
-
-    html {
-        overflow-y: scroll;
-    }
 
     .container {
         display: flex;
@@ -232,12 +171,8 @@ button {
         font-size: 16px;
     }
 
-    div {
-        padding: 0;
-    }
-
     button {
-        padding: 10px 10px;
+        padding: 10px;
         font-size: 10px;
     }
 
@@ -248,6 +183,6 @@ button {
 
     p {
         padding: 10px;
-        font-size: 14px;
+        font-size: 12px;
     }
 }
