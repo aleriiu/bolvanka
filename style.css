@@ -94,7 +94,7 @@ th {
 td {
     letter-spacing: 1px;
     font-size: 12px;
-    word-break: break-all;
+    word-break: break-all; /* вставить в это место */
 }
 
 thead td {
