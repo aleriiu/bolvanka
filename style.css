@@ -76,7 +76,8 @@ table {
     width: 100%;
 }
 
-.col-1 {
+.col-1,
+.col-01 {
     width: 7%;
 }
 
@@ -93,6 +94,7 @@ th {
 td {
     letter-spacing: 1px;
     font-size: 12px;
+    word-break: break-all;
 }
 
 thead td {
@@ -178,11 +180,21 @@ button {
 
     td {
         font-size: 10px;
-        word-break: break-all;
     }
 
     p {
         padding: 10px;
         font-size: 12px;
     }
+
+    /* СКОПИРОВАТЬ */
+
+    .col-2,
+    .col-5,
+    .col-03,
+    .col-04 {
+        display: none;
+    }
+
+    /* СКОПИРОВАТЬ */
 }
