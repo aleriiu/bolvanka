@@ -155,8 +155,6 @@
             </div>
             <h2>Жизненный цикл заказа: "АЦП-В V1.1 БАРС +". <br />
                 Документация: &#9989;</h2>
-
-            <!--СКОПИРОВАТЬ-->
             <div>
                 <table>
                     <thead>
@@ -231,73 +229,102 @@
                     </tbody>
                 </table>
             </div>
-            <!--СКОПИРОВАТЬ-->
         </div>
         <div class="container-group__part">
-            <div>
-                <table class="table-border">
-                    <tbody>
-                        <tr>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">&nbsp;</button></td>
-                        </tr>
-                        <tr>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">&nbsp;</button></td>
-                        </tr>
-                        <tr>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">&nbsp;</button></td>
-                        </tr>
-                        <tr>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">&nbsp;</button></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <form action="" method="post">
+                <div class="padding">
+                    <table class="table-border">
+                        <tbody>
+                            <tr>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="mount_start">МОНТАЖ СМД - СТАРТ</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="mount_end">МОНТАЖ СМД - ОКОНЧАНИЕ</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="otk_smd_ok">ОТК - SMD - ОК</button></td>
+                                <td class="td-button">4</td>
+                            </tr>
+                            <tr>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="dip_start">ВЫВОДНОЙ - СТАРТ</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="dip_end">ВЫВОДНОЙ - ОКОНЧАНИЕ</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="otk_dip_ok">ОТК - DIP - ОК</button></td>
+                                <td class="td-button">2</td>
+                            </tr>
+                            <tr>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="storage_accepted">СКЛАД - ЗАКАЗ ПРИНЯТ НА СКЛАД</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="storage_ok">СКЛАД - КОМПЛЕКТ ПРОВЕРЕН</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="storage_delivery_ready">СКЛАД - ГОТОВ К ОТГРУЗКЕ</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="storage_delivery">СКЛАД - ЗАКАЗ ОТГРУЖЕН</button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><textarea type="text" name="text" value="0"
+                                        placeholder="Введите комментарий"></textarea></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="comment">Добавить комментарий</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="storage_close">ЗАКРЫТЬ ЗАКАЗ</button></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </form>
         </div>
     </div>
     <footer>
         <div class="container-group__part container-group__part-display">
-            <div>
-                <table class="table-border">
-                    <tbody>
-                        <tr>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">&nbsp;</button></td>
-                        </tr>
-                        <tr>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">&nbsp;</button></td>
-                        </tr>
-                        <tr>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">&nbsp;</button></td>
-                        </tr>
-                        <tr>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">МОНТАЖ СМД СТАРТ</button></td>
-                            <td class="td-button"><button class="button">&nbsp;</button></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <form action="" method="post">
+                <div class="padding">
+                    <table class="table-border">
+                        <tbody>
+                            <tr>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="mount_start">МОНТАЖ СМД - СТАРТ</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="mount_end">МОНТАЖ СМД - ОКОНЧАНИЕ</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="otk_smd_ok">ОТК - SMD - ОК</button></td>
+                                <td class="td-button">4</td>
+                            </tr>
+                            <tr>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="dip_start">ВЫВОДНОЙ - СТАРТ</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="dip_end">ВЫВОДНОЙ - ОКОНЧАНИЕ</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="otk_dip_ok">ОТК - DIP - ОК</button></td>
+                                <td class="td-button">2</td>
+                            </tr>
+                            <tr>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="storage_accepted">СКЛАД - ЗАКАЗ ПРИНЯТ НА СКЛАД</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="storage_ok">СКЛАД - КОМПЛЕКТ ПРОВЕРЕН</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="storage_delivery_ready">СКЛАД - ГОТОВ К ОТГРУЗКЕ</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="storage_delivery">СКЛАД - ЗАКАЗ ОТГРУЖЕН</button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><textarea type="text" name="text" value="0"
+                                        placeholder="Введите комментарий"></textarea></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="comment">Добавить комментарий</button></td>
+                                <td class="td-button"><button class="button" type="submit" name="action"
+                                        value="storage_close">ЗАКРЫТЬ ЗАКАЗ</button></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </form>
         </div>
         <p>ЕВА: &nbsp;<i>Спасибо, что ты со мной. Скоро я буду уметь еще больше. &#129321; А пока я версия 0.1
             </i>&#129321;<br />
