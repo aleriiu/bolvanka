@@ -189,10 +189,7 @@ button {
 
     /* СКОПИРОВАТЬ */
 
-    .col-2,
-    .col-5,
-    .col-03,
-    .col-04 {
+    .hide {
         display: none;
     }
 
